@@ -48,35 +48,35 @@
 
 gantt
     title 健康飲食 App 專案時程表 (2025/10/01 - 2025/12/21)
-    dateFormat  MM/DD
+    dateFormat  YYYY-MM-DD
     axisFormat %m/%d
 
-    section 階段一：規劃與基礎建設
-    專案啟動與需求細化: A1, 10/01, 5d
-    UI/UX 設計 (Wireframe & Mockup): A2, 10/03, 10d
+    %% 階段一：規劃與基礎建設
+    專案啟動與需求細化: A1, 2025-10-01, 5d
+    UI/UX 設計 (Wireframe & Mockup): A2, 2025-10-03, 10d
     後端架構與資料庫 Schema 設計: A3, after A1, 7d
     建立雲端環境 (GCP) 與 CI/CD: A4, after A3, 5d
     爬取/匯入食物營養資料庫: A5, after A3, 7d
 
-    section 階段二：核心功能 - 飲食記錄
+    %% 階段二：核心功能 - 飲食記錄
     後端：使用者認證 API: B1, after A4, 7d
     前端：使用者認證頁面: B2, after A2, B1, 7d
     後端：飲食記錄 CRUD API: B3, after A5, B1, 10d
     前端：飲食日記頁面與記錄功能: B4, after B2, B3, 10d
 
-    section 階段三：核心功能 - AI 智慧分析
+    %% 階段三：核心功能 - AI 智慧分析
     後端：串接 Vision API 圖像辨識: C1, after B3, 7d
     後端：串接 Gemini API 飲食建議: C2, after B3, 10d
     後端：每日營養缺口分析 API: C3, after B3, 7d
     前端：整合拍照辨識與 AI 建議: C4, after C1, C2, C3, 10d
 
-    section 階段四：衍生功能 - 社群與地圖
+    %% 階段四：衍生功能 - 社群與地圖
     後端：社群貼文/留言 API: D1, after B1, 7d
     前端：社群功能頁面: D2, after D1, 7d
     後端：串接 Google Maps API: D3, after B1, 5d
     前端：地圖與店家推薦頁面: D4, after D3, 5d
 
-    section 階段五：整合測試與上線準備
+    %% 階段五：整合測試與上線準備
     前後端整合測試與 Bug 修復: E1, after B4, C4, D2, D4, 10d
     壓力測試與效能優化: E2, after E1, 5d
     撰寫上架文件與 App Store 準備: E3, after E1, 3d
