@@ -1,2 +1,2 @@
-![FDD](FDD.png)
+![FDD](fdd.png)
 ![UCD](UCD.png)
