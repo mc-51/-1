@@ -21,9 +21,10 @@ graph LR
 
     E -->|營養素查詢請求| D
     D -->|食物營養成分| E
-
-
 ```
+
+![系統環境圖](dfd.png)
+
 # DFD 圖0
 ```mermaid
 graph TD
