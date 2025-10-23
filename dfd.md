@@ -203,12 +203,12 @@ flowchart TD
         P1["1.0 飲食記錄與分析"]
         D1["用戶檔案"]
         D2["飲食紀錄"]
-        B["外部 AI 服務"]
+        B["AI 服務"]
         P2["2.0 AI 推薦與身體預測"]
         P3["3.0 社群與地圖服務"]
   end
  subgraph s3["外部資源與社群儲存"]
-        C["外部店家資料庫"]
+        C["店家資料庫"]
         D3["社群內容"]
   end
     A -- 記錄與更新資料 --> P1
@@ -241,4 +241,7 @@ flowchart TD
     P2@{ shape: div-proc}
     P3@{ shape: div-proc}
     D3@{ shape: lin-proc}
+
+
+
 ```
