@@ -1,2 +1,2 @@
-# RED
-![RED](RED.png)
+# ERD
+![ERD](ERD.png)
